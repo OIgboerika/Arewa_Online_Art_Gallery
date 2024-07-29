@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div id="log">
+      <div class="box">
+        <legend>Log in to Arewa Online Art Gallery</legend>
+        <br /><br />
+        <form id="loginForm">
+          <div id="login">
+            <label for="email">Email:</label
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input
+              type="email"
+              id="email"
+              placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@gmail.com"
+            /><br /><br />
+            <label for="pwd">Password:</label>&nbsp;
+            <input
+              type="password"
+              id="pwd"
+              placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;****"
+            /><br /><br /><br />
+            <button type="submit" id="loginbtn" class="stud">LOGIN</button
+            ><br /><br />
+            <p>
+              New User? <a href="signin.html">Register Now!</a>
+              <a href="#">Forget Password</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <br /><br /><br /><br /><br /><br />
+      <footer>
+        <p>&copy; 2024 Arewa Online Art Gallery. All Rights Reserved.</p>
+      </footer>
+    </div>
+
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the form from submitting via the browser.
+
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("pwd").value;
+
+          if (
+            email === "o.igboerika@alustudent.com" &&
+            password === "Kachi@02"
+          ) {
+            window.location.href = "index.html"; // Redirects to the forum page on successful login
+          } else {
+            alert("Invalid email or password. Please try again.");
+          }
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arewa Online Art Gallery</title>
+
+    <link rel="stylesheet" href="upload.css" />
+    </head>
+  <body>
+    <header>
+      <h3>Arewa Online Art Gallery</h3>
+
+      <nav>
+        <ul>
+          <li><a href="paintings.html">Paintings</a></li>
+        </ul>
+        <ul>
+          <li><a href="Recommendations.html">Recommendations</a></li>
+        </ul>
+        <ul>
+          <li><a href="uploadimg.html">Upload Artwork</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="upload-container">
+      <form class="upload-form" action="upload.php" method="POST" enctype="multipart/form-data">
+        <label for="artwork">Select Artwork:</label>
+        <input type="file" name="artwork" id="artwork" accept="image/*">
+        <label for="description">Artwork Description:</label>
+        <textarea name="description" id="description" placeholder="Enter artwork description"></textarea>
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+    
+
+    <script src="upload.js"></script>  
+  </body>
+</html>
