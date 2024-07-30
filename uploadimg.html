@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arewa Online Art Gallery</title>
 
-    <link rel="stylesheet" href="upload.css" />
-    </head>
+    <link rel="stylesheet" href="/style/upload.css" />
+  </head>
   <body>
     <header>
       <h3>Arewa Online Art Gallery</h3>
@@ -25,16 +25,24 @@
     </header>
 
     <div class="upload-container">
-      <form class="upload-form" action="upload.php" method="POST" enctype="multipart/form-data">
+      <form
+        class="upload-form"
+        action="upload.php"
+        method="POST"
+        enctype="multipart/form-data"
+      >
         <label for="artwork">Select Artwork:</label>
-        <input type="file" name="artwork" id="artwork" accept="image/*">
+        <input type="file" name="artwork" id="artwork" accept="image/*" />
         <label for="description">Artwork Description:</label>
-        <textarea name="description" id="description" placeholder="Enter artwork description"></textarea>
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Enter artwork description"
+        ></textarea>
         <button type="submit">Upload</button>
       </form>
     </div>
-    
 
-    <script src="upload.js"></script>  
+    <script src="upload.js"></script>
   </body>
 </html>
