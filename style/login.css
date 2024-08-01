@@ -43,23 +43,25 @@ legend {
   border:none;
   Margin:30px auto;
   Padding:30px;
-  Width: 600px; 
-  Height: 500px;
+  Width: 450px; 
+  Height: 480px;
   Position: relative;
   background-color: red;
   border-radius: 5px;
   font-family: -apple-system, Ubuntu, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 
 .stud {
-  background-color: #89253e;
+  background-color: #000000;
   color:white;
   margin-top:5px;
   font-size: 14px;
   border: none;
   padding:2px;
-  font-family: 'Oleo Script', 'cursive';
+  font-family: -apple-system, Ubuntu, Arial, sans-serif;
 }
 
 
@@ -67,7 +69,7 @@ legend {
   width: 100%;
   width: 100vw;
   height: 787px; /* change it to your value depending on context*/
-  background-color: #2e2e2d;
+  background-color: #ffffff;
   color: black;
   padding: 40px 100px;
   border: 1px solid black;
@@ -82,8 +84,8 @@ footer {
   width: 100%;
   width: 100vw;
   height: 54px;
-  background-color: gray;
+  background-color: #000000;
   margin-top: 19px;
   padding-top: 4px;
-  font-family: 'Teko', sans-serif;
+  font-family: -apple-system, Ubuntu, Arial, sans-serif;
 }
