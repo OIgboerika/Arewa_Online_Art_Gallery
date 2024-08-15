@@ -10,5 +10,4 @@ Arewa Online Art Gallery is a web-based platform designed to help African artist
 #Right-click index.html, then Open with Live Server
 
 # To Deploy Arewa Online Art Gallery
-
 #Use Vercel to deploy by linking the repository to Vercel 
